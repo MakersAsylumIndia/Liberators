@@ -1,89 +1,16 @@
-# 📘 Welcome to the IS Project Documentation Template!
+**->Fundamental Idea**:
+Boot is a handheld device designed to help neurodivergent individuals communicate with others. Designed for inclusivity, Boot helps people by explaining the issues the individuals face with their neurodivergence without fearing the extreme anxiety faced in social interactions. This bot has two main functions. The first major function is the ability to verbalize pre-made texts into speech and help people give basic introductions to others that will always remain the same. The second major function is to listen to conversations and help neurodivergent people respond if they are unable to or are not comfortable responding. 
 
-Hey there! 👋
 
-This repository is your home for documenting your **Innovation School Project** and starting your **maker portfolio**.  
-You’ll be using the **GitHub Wiki** to update all your project details in a structured format.
+**->Inputs**:
+For the two functions there are a total of three different input types required. Firstly, an input to turn on or off the device to conserve power. The second input involves a push button which lets the user slide through the preset response options and choose the one they would like to use in accordance with the situation they are in. The last input involves a microphone that listens to conversation cues and topics and create creative ways of responding to help the user navigate complex interactions without the fear of making a mistake, which would help them integrate themselves into social society. 
 
----
 
-## 🧠 What to Do First
+**->Processing**:
+The input data could be processed in three different ways. Firstly, the input of the on off device would be processed by immediately quitting the program and turning off the ESP32. The selection of the predetermined texts would be processed by using a code that turns text into speech and using an amplifier to send the voice data to the speaker which would finally be output. The microphone data is processed through a language learning model which can be obtained from open sources or through training GPTs. The trained GPTs would create text which would be used with the text to speech software which can be found online.
 
-Start by writing a **brief introduction** to your project right here in this `README.md` file:
 
-🔹 What problem are you solving?  
-🔹 What’s your proposed solution?
+**->Output**:
+The final data to be output would be the speech and or display of messages that a person wishes to communicate with.
 
-Just 2–3 lines are enough. This helps others quickly understand what your project is about.
 
-Click on the ✏️ PENCIL icon next to the README title above, and you can edit the README directly from within your browser.
-
----
-
-## 🛠 Where to Document Everything Else
-
-We’ve already created a standard set of [**Wiki pages**](https://github.com/MakersAsylumIndia/Bowl-Buddy/wiki) for your project in this repository — you just need to **update them with your project information**.
-
-Each section is ready with headings like:
-
-- Project Title
-- Problem Statement
-- Bill of Materials (BOM)
-- Solution Overview
-- SDG Goals Associated
-- Circuit & CAD Files
-- Media Gallery
-- License
-
-Please **do not delete the headings** — just replace the placeholder content under each.
-
----
-
-## 📚 How to Edit the GitHub Wiki Pages
-
-Follow these official GitHub help guides to learn how to edit your Wiki pages:
-
-🔗 [How to Add or Edit Wiki Pages](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages)  
-🔗 [How to Format and Save Content in Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/editing-wiki-content)
-
----
-
-## 📸 Visual Guide (Optional)
-
-If you’re unsure where the Wiki tab is:  
-📍 It’s on the top-right area of the repository (next to Code, Issues, Pull Requests).
-
-You’ll find your project listed there. Click on it, then click **“Edit”** to begin updating.
-
----
-
-## 🤝 Need Help?
-
-If you're confused at any step:
-- Ask your mentor or coordinator
-- Or drop a message in our Discord/WhatsApp support group
-
-Let’s build something awesome! 🚀
-
-## License
-
-Licenses
-
-<a href="LICENSE.md"><img src="Media\Images\Licenses_facts.svg" width="400" alt="Open Source Licenses Facts"/></a>
-
-#### Hardware
-CERN Open Hardware License Version 2 - Strongly Reciprocal ([CERN-OHL-S-2.0](https://spdx.org/licenses/CERN-OHL-S-2.0.html)).
-
-#### Software
-MIT open source [license](http://opensource.org/licenses/MIT).
-
-#### Documentation:
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
----
-
-## 📬 Contact/Team
-
-> _List team members and contact emails or GitHub profiles._
-
----
