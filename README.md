@@ -16,7 +16,7 @@ The final data to be output would be the speech and or display of messages that 
 # CONTACT
 （＾ω＾）
 ## Amogh Mathur
-email: 
+email: mathura3350@mayoboys.com
 ## Rayana Mazumdar
 email: mazumdar.rayana@gmail.com
 ## Stotro Roy
